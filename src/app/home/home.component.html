@@ -10,7 +10,7 @@
       </div>
       <div class="movies-thumbnail">
         <div class="movie" *ngFor="let movie of trendingMovies">
-          <div class="cover">
+          <div class="cover" (click)="gotToMovie('trending',movie.id)">
             <img [src]="movie.cover" alt="">
           </div>
           <div class="detail">
@@ -28,7 +28,7 @@
       </div>
       <div class="movies-thumbnail">
         <div class="movie" *ngFor="let movie of theatreMovies">
-          <div class="cover">
+          <div class="cover" (click)="gotToMovie('theater',movie.id)">
             <img [src]="movie.cover" alt="">
           </div>
           <div class="detail">
@@ -46,7 +46,7 @@
     <div class="movies">
       <div class="movie" *ngFor="let movie of popularMovies">
         <div class="detail">
-          <div class="name">{{movie.name}}</div>
+          <div class="name" (click)="gotToMovie('popular',movie.id)">{{movie.name}}</div>
           <div class="rating">{{movie.rating}}</div>
         </div>
       </div>
