@@ -90,22 +90,6 @@
     ]
   },
   {
-    "id": 7,
-    "name": "Gladiator",
-    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTEBhwDpB08O2L5mZ0WIARuXUznGjMFj7k3vEwnrHqXYMcTXlWegX9r3s6NOs8&s=10",
-    "rating": 4.35,
-    "reviews": [
-    ]
-  },
-  {
-    "id": 8,
-    "name": "Titanic",
-    "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcR09mQFG3dBHrT5KSKTYnM5Yn-jcPARe55m609vxJxsEDd2woemRHd6tCj8zuw&s=10",
-    "rating": 4.15,
-    "reviews": [
-    ]
-  },
-  {
     "id": 9,
     "name": "Terminator",
     "cover": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSEo9aGDRBw2X5YbUe-5SfkJsmlqtUse1oFzBJo2ji3USxzmWCtgURsaDV0HJU&s=10",
