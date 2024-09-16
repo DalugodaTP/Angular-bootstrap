@@ -1,0 +1,11 @@
+.home-container{
+  display: flex;
+  .all-movies{
+    width: 75%;
+    min-height: calc(100vh - 80px);
+  }
+  .popular-movies{
+    width: 25%;
+    min-height: calc(100vh - 80px);
+  }
+}
