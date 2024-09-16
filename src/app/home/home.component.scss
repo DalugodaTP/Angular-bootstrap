@@ -10,6 +10,7 @@
       display: flex;
       align-items: center;
       justify-content: space-between;
+      margin-bottom: 15px;
       h4{
         text-transform: uppercase;
         font-weight: bold;
@@ -19,6 +20,28 @@
       .view-all{
           color: #ff9900;
           cursor: pointer;
+      }
+    }
+    .movies-thumbnail{
+      display: flex;
+      justify-content: space-between;
+      .movie{
+        width: 150px;
+        .cover{
+          img{
+            border-radius: 5px;
+            width: 150px;
+          }
+        }
+        .detail{
+          width: 180px;
+          .name{
+            font-weight: bold;
+            height: 50px;
+            margin-top: 5px;
+            cursor: pointer;
+          }
+        }
       }
     }
   }
